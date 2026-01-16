@@ -71,7 +71,7 @@ int main(){
     ProvinceRoad.addEdge(4, 6);
     ProvinceRoad.bfs(1, visitedProvince);
     for(auto it = visitedProvince.begin(); it != visitedProvince.end(); ++it){
-        cout<<arr[(int)*it - 1]<<" ";
+        cout<<arr[(int)*it - 1]<<"  ";
     }
     return 0;
 }
